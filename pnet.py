@@ -66,7 +66,7 @@ msg = EmailMessage()
 msg['Subject'] = '[Automated] PNet Job Board'
 msg['From'] = EMAIL_AD
 msg['To'] = 'email@email.com' #Enter the recieving email address(s) here
-msg.set_content("This is an automate message. PLEASE DO NOT RESPOND. \n\nPlease speak to Ben directly for feedback")
+msg.set_content("This is an automated message. PLEASE DO NOT RESPOND. \n\nPlease speak to Ben directly for feedback")
 
 with open('capetown_pnet.csv', 'rb') as f:
     file_data = f.read()
